@@ -1,0 +1,28 @@
+{
+  "name": "houdini-rainbow-blobs",
+  "version": "1.0.0",
+  "description": "CSS Houdini paint worklet from @twerske",
+  "main": "worklet.js",
+  "props": "properties.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twerske/houdini-worklets.git"
+  },
+  "keywords": [
+    "css",
+    "houdini",
+    "worklet"
+  ],
+  "author": "Emma Twersky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twerske/houdini-worklets/issues"
+  },
+  "homepage": "https://github.com/twerske/houdini-worklets",
+  "dependencies": {
+    "blobs": "^2.2.0"
+  }
+}

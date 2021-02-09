@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 1rem;
+  background-color: cornflowerblue;
+}
+
+h1 {
+  color: transparent;
+  font-family: system-ui, sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+@supports (background-image: paint(something)) {
+  h1 {
+    background-image: paint(rainbow-blobs);
+  }
+}
